@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atul Shukla | Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Atul Shukla</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Atul Shukla</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+
+        <p>
+          Computer Science undergraduate at Noida Institute of Technology with a
+          passion for building responsive and user-friendly web applications.
+          Strong in HTML, CSS, JavaScript, and problem-solving.
+        </p>
+
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/atul-shukla-912000327/" target="_blank">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/atulshukla93052" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://leetcode.com/u/atulshukla93/" target="_blank">
+            <i class="bx bx-code-alt"></i>
+          </a>
+        </div>
+
+        <a
+          href="https://drive.google.com/file/d/1plhb9YUwBuqmytTZKtUwZi83q-5POhdC/view?usp=sharing"
+          class="btn"
+          target="_blank"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="images/profile44.png" alt="Atul Shukla" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/aboutatul.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>B.Tech Computer Science Student</h3>
+
+        <p>
+          I am an enthusiastic and detail-oriented Computer Science student at
+          Noida Institute of Technology (AKTU). I enjoy developing efficient and
+          scalable web applications using HTML, CSS, JavaScript, and modern
+          tools. I have hands-on experience building real-world projects like a
+          Weather Forecasting App and an Online Travel Booking system.
+          <br /><br />
+          I am a quick learner with strong problem-solving skills and a passion
+          for becoming a Full Stack Developer.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills / Services -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, Responsive Web Design</p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-data"></i>
+          <h3>Backend & Database</h3>
+          <p>Node.js, MySQL, MongoDB</p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-git-branch"></i>
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <!-- Project 1 -->
+        <div class="portfolio-box">
+          <img src="images/port1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Weather App</h4>
+            <p>Real-time weather app using OpenWeather API</p>
+            <a href="https://weather-app-atulshukla.netlify.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+            <a href="https://github.com/atulshukla93052/Weather-App" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-box">
+          <img src="images/port2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Online Travel Booking</h4>
+            <p>Travel booking platform with validations</p>
+            <a href="https://online-travel-booking-atulshukla.netlify.app/" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+            <a
+              href="https://github.com/atulshukla93052/Online-Travel-Booking"
+              target="_blank"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+
+  <form id="contact-form">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+    </div>
+
+    <textarea
+      name="message"
+      rows="8"
+      placeholder="Your Message"
+      required
+    ></textarea>
+
+    <button type="button" class="btn" id="send-btn">
+      Send Message
+    </button>
+  </form>
+</section>
+
+<!-- Success Popup -->
+<div id="success-popup" class="popup">
+  ✅ Message sent successfully!
+</div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          © 2026 Atul Shukla | B.Tech CSE | Noida Institute of Technology
+        </p>
+      </div>
+
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
